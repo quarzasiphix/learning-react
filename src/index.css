@@ -1,7 +1,40 @@
 body {
-  background-color: rgb(225, 225, 225);
+  color: white;
+  background-color: rgb(35, 35, 35);
+  font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  color: rgb(173, 173, 173);
+}
+
+.navbar a.active {
+  color: pink;
+}
+
+
+.help-layout {
+  display: flex;
+  
+  gap: 16px;
+  justify-content: start;
+}
+
+.help-layout a {
+  color: rgb(173, 173, 173);
+}
+
+.help-layout a.active {
+  color: pink;
+}
 
 .blog-preview {
   padding: 10px 16px; 
@@ -16,4 +49,9 @@ body {
   font-size: 20px;
   color: rgb(191, 32, 205);
   margin-bottom: 8px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
 }
