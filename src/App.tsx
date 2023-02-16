@@ -12,11 +12,11 @@ import Contact from './layout/help/contact'
 import Faq from './layout/help/faq'
  
 import RootLayout from './layout/RootLayout'
+import HelpLayout from './layout/HelpLayout'
 
-//import Navbar from './Navbar'
+import NotFound from './pages/NotFound'
 
 import './index.css'
-import HelpLayout from './layout/HelpLayout'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,7 +28,7 @@ const router = createBrowserRouter(
           <Route path="contact" element={<Contact/>}/>
         </Route>
 
-        <Route path="*" element={}/>
+        <Route path="*" element={<NotFound/>}/>
       </Route>
   )
 )
