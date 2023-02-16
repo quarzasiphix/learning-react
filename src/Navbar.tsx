@@ -1,25 +1,11 @@
-import  { useState } from 'react'
+import { NavLink} from 'react-router-dom'
+
 
 const Navbar = () => {
-    const [link, setLink] = useState('quarza')
-
-    function Links() {
-        return <p> {link} </p>
-    }
-    
-    const handleClick = () => {
-        if(link == 'niggax') setLink('quarza')
-        else setLink('niggax')
-    }
-    
     return(
-        <div className='nav'>
-            <div className='navbar'>
-                 <Links/>
-            </div>
-            <div className='test'>
-                <button onClick={handleClick}> change </button>
-            </div>
+        <div className='navbar'>
+            <NavLink to="/"> home </NavLink>                
+            <NavLink to="/blogs"> blogs </NavLink>
         </div>
     )
 }

@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "title": "site e", 
+            "body": "sup", 
+            "author": "me", 
+            "id": 1
+        },
+        { 
+            "title": "waza", 
+            "body": "wazaa sup", 
+            "author": "nigga", 
+            "id": 2
+        },
+        {
+            "title": "tes et", 
+            "body": "wazaa sup body", 
+            "author": "me", 
+            "id": 3 
+        }
+    ]
+}
