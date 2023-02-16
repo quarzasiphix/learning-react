@@ -5,9 +5,14 @@ const HomePage = () => {
     
     return (
         <div className='home'>
-        <h1> yaaa its home</h1>
-        <p> {count} </p>
-        <button onClick={() => { setCount(count+ + 1) }}> yo</button>
+            <h1> yaaa its home</h1>
+            <p> {count} </p>
+            <button onClick={() => { setCount(count+ + 1) }}> yo</button>
+            <div className='fafosec'>
+                <div className='fafo'>
+                    <button> test </button>
+                </div>
+            </div>
         </div>
     )    
 }
