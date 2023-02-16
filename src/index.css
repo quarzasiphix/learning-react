@@ -87,12 +87,14 @@ main {
 }
 
 .fafo {
+  flex-direction: column;
   display: flex;
   border: 3px solid gray;
   align-items: center;
   justify-content: center; 
   width: 100px;
   height: 100px;
+  padding: 20px;
 }
 
 .fafo button {
