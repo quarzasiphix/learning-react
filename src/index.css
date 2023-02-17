@@ -10,13 +10,12 @@ body {
 }
 
 .navbar {
-  margin: 0;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   background-color: rgba(108, 19, 223, 0.2);
-  gap: 16px;
-  max-width: 1200px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .navbar .links {
@@ -48,11 +47,17 @@ body {
 .help-layout {
   text-decoration: none;
   display: flex;
-  gap: 16px;
   justify-content: start;
+  flex-direction: column;
+}
+
+.help-layout nav {
+  display: flex;
+  gap: 20px;
 }
 
 .help-layout a {
+  gap: 30px;
   text-decoration: none;
   color: rgb(173, 173, 173);
 }
@@ -77,27 +82,31 @@ body {
 }
 
 main {
-  max-width: 1200px;
   margin: 40px auto;
 }
 
 .fafosec {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  border: 2px solid white;
+  margin: 0;
+  padding: 0;
 }
 
+
 .fafo {
-  flex-direction: column;
   display: flex;
-  border: 3px solid gray;
   align-items: center;
   justify-content: center; 
+  border: 3px solid gray;
   width: 100px;
+  flex-direction: column;
   height: 100px;
-  padding: 20px;
+  padding: 0px;
 }
 
 .fafo button {
+  margin: 0;
   width: 50px;
   height: 50px;
   background-color: aqua;
