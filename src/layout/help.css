@@ -20,11 +20,12 @@
 .help-layout a {
     gap: 30px;
     text-decoration: none;
-    color: rgb(173, 173, 173);
+    color: rgb(186, 227, 255);
 }
 
 .help-layout a.active {
-    color: pink;
+    font-size: 120%;
+    color: var(--active-color);
 }
 
 .outlet {
