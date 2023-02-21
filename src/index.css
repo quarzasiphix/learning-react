@@ -1,122 +1,20 @@
 :root {
   box-sizing: border-box;
+  --primary-color: rgb(35, 24, 107);
+  --secondary-color: rgb(158, 2, 158);
+  --active-color: rgb(249, 211, 244);
+  --text-color: white;
 }
 
 body {
   margin: 0;
-  color: white;
-  background-color: rgb(35, 35, 35);
+  color: var(--text-color);
+  background-color: var(--primary-color);
   font-family: 'Open Sans', sans-serif;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgba(108, 19, 223, 0.2);
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.navbar .links {
-  display: flex;
-  gap: 16px;
-}
-
-.navbar .links a {
-  background-color: rgb(6, 243, 215);
-  padding: 10px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  border: 5px solid aliceblue;
-  border-radius: 10px;
-}
-
-.navbar .links a:hover {
-  transition: 100ms;
-  border: 5px solid rgb(221, 41, 41);
-
-}
-
-.navbar .links a.active {
-  color: rgb(255, 0, 170);
-  font-size: 120%;
-}
-
-
-.help-layout {
-  text-decoration: none;
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-}
-
-.help-layout nav {
-  display: flex;
-  gap: 20px;
-}
-
-.help-layout a {
-  gap: 30px;
-  text-decoration: none;
-  color: rgb(173, 173, 173);
-}
-
-.help-layout a.active {
-  color: pink;
-}
-
-.blog-preview {
-  padding: 10px 16px; 
-  margin: 20px;
-  border-bottom: 1px solid white;
-}
-.blog-preview:hover {
-  box-shadow: 1px 3px 5px rgb(14, 14, 14);
-}
-
-.blog-preview h2 {
-  font-size: 20px;
-  color: rgb(191, 32, 205);
-  margin-bottom: 8px;
 }
 
 main {
   margin: 40px auto;
-}
-
-.fafosec {
-  display: flex;
-  justify-content: center;
-  border: 2px solid white;
-  margin: 0;
-  padding: 0;
-}
-
-
-.fafo {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  border: 3px solid gray;
-  width: 100px;
-  flex-direction: column;
-  height: 100px;
-  padding: 0px;
-}
-
-.fafo button {
-  margin: 0;
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
-  border: 2px solid rgb(255, 1, 43);
-}  
-
-.fafo button:hover {
-  transition: 100ms;
-  border: 2px solid rgb(95, 15, 255);
-  border-radius: 3px;
 }
 
 
