@@ -8,8 +8,8 @@ import { createBrowserRouter,
 import { useState, useEffect } from 'react'
 import BlogList from './pages/BlogList'
 import HomePage from './pages/Home'
-import Contact from './layout/help/contact'
-import Faq from './layout/help/faq'
+import Contact from './help/contact'
+import Faq from './help/faq'
  
 import RootLayout from './layout/RootLayout'
 import HelpLayout from './layout/HelpLayout'
@@ -27,7 +27,6 @@ const router = createBrowserRouter(
           <Route path="faq" element={<Faq/>}/>
           <Route path="contact" element={<Contact/>}/>
         </Route>
-
         <Route path="*" element={<NotFound/>}/>
       </Route>
   )

@@ -1,17 +1,19 @@
 import { useState } from 'react' 
+import './home.css'
 
 const HomePage = () => {
     const [count, setCount] = useState(0)
     
     return (
-        <> <div className='fafosec'>
-                <div className='fafo'>
-                    <button onClick={() => { setCount(count+ + 1) }}> test </button>
-                </div>
-            </div>
+        <>
         <div className="home">
-            <h1> yaaa its home</h1>
-                <p> {count} </p>
+        <h1> yaaa its home </h1>
+        </div>
+        <div className='fafosec'>
+            <div className='fafo'>
+            <p> counter {count} </p>
+                <button onClick={() => { setCount(count + 1) }}> test </button>
+            </div>
         </div>
         </>
     )    

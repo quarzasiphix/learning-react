@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './blog.css'
 
 interface Blog {
   id: number;
